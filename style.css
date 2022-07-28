@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Mulish:wght@400;700&family=Oswald:wght@200;700&family=Roboto:ital@0;1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif
+    
+  }
+body{
+    height: 100vh;
+    /* width: 100vw; */
+}
+nav.navbar-container
+{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+div.grow-list 
+{
+    flex:0.3;
+    
+    
+}
+div.grow-list ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    /* border: 2px solid red; */
+    
+}
+div.grow-list 
+{
+    position: relative;
+    right: 8%;
+   
+}
+div.nav-logo
+{
+    flex:0.1;
+    /* border: 2px solid red; */
+    width: 80px;
+}
+div.banner-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80vh;
+}
+h1.heading-text
+{
+    /* border: 2px solid red; */
+    font-size: 60px;
+    margin-left: 120px;
+    align-items: center;
+    color:#042a4e ;
+    margin-top: 14%;
+    font-weight:900;
+    
+}
+span
+{
+    color:#224997;
+}
+p.description
+{
+    /* border: 2px solid red; */
+    margin-left: 120px;
+    margin-top: 5%;
+    color: #898787;
+    font-size: 15px;
+    line-height: 20PX;
+}
+.big-banner
+{
+    height: 600px;
+    height: 600px;
+}
+.btn
+{
+    margin-left: 120px;
+    margin-top: 5%;
+    border: none;
+    border-radius: 10px;
+    padding: 25px 50px;
+    color:#ffffff;
+    background-color: #2d5c9e;
+    font-size: 20px;
+
+}
+.nav-button{
+    margin-left: 120px;
+    margin-top: 5%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color:#ffffff;
+    background-color: #2d5c9e;
+    font-size: 20px;
+
+}
+ul>li
+{
+    /* margin: 0 50px; */
+    padding: 0 30px;
+    /* border: 2px solid red; */
+    color: #898787;
+    font-size: 15px;
+
+}
+ul>li:hover
+{
+    color: #080808;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 900;
+}
